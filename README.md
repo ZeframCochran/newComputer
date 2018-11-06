@@ -42,7 +42,7 @@ _asterisks_ or _underscores_.
 
 **asterisks and _underscores_**.
 
-    **asterisks and _underscores_**.
+    **asterisks and _underscores_**
 
 ### Strikethrough
 
@@ -63,9 +63,13 @@ two tildes. ~~Scratch this.~~
     1.  Second sub-item
 
     <br>
+
         1.  Renders as
+
         1.  an ascending
+
         1.  list from 1
+
         1.  to 4
 
 <br/ comment:"This tag ended the list.">
@@ -93,7 +97,7 @@ two tildes. ~~Scratch this.~~
 ![I'd sure like to bomb some dodongos](https://gamecrawl.com/wp-content/uploads/2018/04/the-legend-of-zelda-ocarina-of-t.jpg "Alt-text")
 <br/?>
 
-    ![text](image url)
+    ![text](image url "Alt-text")
 
 ![Reference (variable) style][refname]
 
@@ -105,13 +109,14 @@ two tildes. ~~Scratch this.~~
 
 ### Footnotes
 
-[^label]
-
-    [^label]
 
 [label]: "I am the very model of a modern major general"
 
     [label]: "I am the very model of a modern major general"
+
+^[label]
+
+    ^[label]
 
 #### Inline footnotes
 
@@ -139,7 +144,7 @@ I am a little disappointed.
 1. Many of these features are behaving differently in VScode and wikijs
 1. https://docs-legacy.requarks.io/wiki/user-guide/markdown-syntax
    - wikijs doesnt support Tables
-   -
+   
 1. https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet
    - Vscode isnt showing images
      - Are markdowns just as different as I recall from the last time I tried to learn it?
